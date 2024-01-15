@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 <head>
   <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,798 +13,1676 @@
 
 <!-- CSS -->
 
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="doc-style.css"/>
 
 
 <script src="libs/font-awesome/js/all.min.js"></script>
-
-<!-- CSS -->
-
-<link rel="stylesheet" type="text/css" href="style.css">
-
-
-<script src="libs/font-awesome/js/all.min.js"></script>
-
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
-
-  <!-- Slick Slider -->
-
-  <link rel="stylesheet" href="assets/slick-slider/slick/slick.css">
-  <link rel="stylesheet" href="assets/slick-slider/slick/slick-theme.css">
-  <script src="assets/slick-slider/slick/slick.min.js"></script>
-
-  <!-- Init Slick Slider -->
-  <script src="assets/slick-slider/slick-init.js"></script>
+  
 
 
 
-  <!-- Animate On Scroll  -->
+  <!-- Prism CSS -->
+  <link rel="stylesheet" type="text/css" href="libs/prism/prism.css"/>
+
+ 
 
 
-
-<link href="libs/aos/aos-master/dist/aos.css" rel="stylesheet">
-
-
-<!-- Isotope Gallery -->
-
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
-
-
-
-<!-- Parralax Library -->
-
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/rolly.js@0.2.0/css/style.css">
-
-<script src="https://unpkg.com/rolly.js@0.2.1/dist/rolly.min.js"></script>
-
-
-	<title> Dubai Mäklare </title>
-
-<script src="js/main.js"></script>
-</head>
-
+ </head>
 
 <body>
-<!-- Page Load Animation -->
-<div class="loader">
-<div id="pulse-loader">
-  <div class="pulse-loader-1"></div>
-  <div class="pulse-loader-2"></div>
-</div>
-</div>
-
-<!-- Back to top button -->
-<a id="backtotop"></a>
 
 
-<!-- Navbar Starts -->
-<nav class="navbar navbar-expand-lg navbar-light cs-nav zoom_effect fixed" id="navbar">
-  <a class="navbar-brand" href="#"><span class="main_logo"><svg baseProfile="tiny" fill="#2fcb72" height="32px" version="1.1" viewBox="0 5 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="
-"><g id="Guides__x26__Forms"></g><g id="Icons"><g><path d="M15.996,5L6,14v13h7.996v-6H18v6h8V14L15.996,5z M24.004,25h-4.008v-6H12v6H7.996V14.828l8-7l8.008,7V25z"></path></g></g></svg>Dubai Mäklare</span></a>
-  <button class="navbar-toggler navbar-toggle x collapsed" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <!-- <span class="navbar-toggler-icon"></span> -->
+<div class="container-fluid">
+  <div class="row">
     
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-  </button>
-  <div class="navbar-collapse collapse dock" id="navbarText" style="">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#main">Hem <span class="sr-only">(current)</span></a>
+    <div class="col p0">
+      <nav id="sidebar">
+        <ul class="nav flex-column">
+         <header><a class="navbar-brand main_logo" href="../index.html">
+         <svg baseProfile="tiny" fill="#2fcb72" height="32px" version="1.1" viewBox="0 5 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="
+          "><g id="Guides__x26__Forms"></g><g id="Icons"><g><path d="M15.996,5L6,14v13h7.996v-6H18v6h8V14L15.996,5z M24.004,25h-4.008v-6H12v6H7.996V14.828l8-7l8.008,7V25z"></path></g></g></svg>Propertier
+          </a></header>
+          <li class="nav-item">
+            <a class="nav-link introduction" href="#Introduction">Introduction</a>
 
-      </li>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link layout" href="#structure">File Structure</a>
+          </li>
 
+          <li class="nav-item">
+           <a class="nav-link layout" href="#changelog">Change log</a>
+          </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="#about">Om Oss</a>
+          <li class="nav-item">
+            <a class="nav-link content" href="#javascript">How To's <i class="fa fa-angle-right c_icon"></i></a>
+            <ul class="inner-menu">
+            <li><a class="nav-inner-link" href="#stemplate">Starter Template</a></li>
+            <li><a class="nav-inner-link" href="#pageload">Page Load Animations</a></li>
+            <li><a class="nav-inner-link" href="#backtotop">Back To Top Button</a></li>
+          
+          </ul>
+          </li>
+
+           <li class="nav-item">
+            <a class="nav-link content" href="#javascript">CSS<i class="fa fa-angle-right c_icon"></i></a>
+            <ul class="inner-menu">
+            <li><a class="nav-inner-link" href="#general">General</a></li>
+            <li><a class="nav-inner-link" href="#backgrounds">Backgrounds</a></li>
+            <li><a class="nav-inner-link" href="#navbars">Navbars</a></li>
+          </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link content" href="#javascript">Javascript <i class="fa fa-angle-right c_icon"></i></a>
+            <ul class="inner-menu">
+            <li><a class="nav-inner-link" href="#sliders">Sliders</a></li>
+            <li><a class="nav-inner-link" href="#progress">Progress Bars</a></li>
+            <li><a class="nav-inner-link" href="#counters">Counters</a></li>
+            <li><a class="nav-inner-link" href="#googlemaps">Google Maps</a></li>
+          </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link content" href="#Components">Bootstrap <i class="fa fa-angle-right c_icon"></i></a>
+            <ul class="inner-menu">
+              <li>
+                  <a href="http://getbootstrap.com/docs/4.4/components/alerts/" class="nav-inner-link" target="_blank">Alerts </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/components/badge/" class="nav-inner-link" target="_blank">Badges </a>
+
+                </li>
+
+                  <a href="http://getbootstrap.com/docs/4.4/components/breadcrumb/" class="nav-inner-link" target="_blank">Breadcrumbs </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/components/buttons/" class="nav-inner-link" target="_blank">Buttons </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/components/card/" class="nav-inner-link" target="_blank">Cards </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/components/dropdowns/" class="nav-inner-link" target="_blank">Dropdowns </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/components/forms/" class="nav-inner-link" target="_blank">Forms </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/layout/grid/" class="nav-inner-link" target="_blank">Grid System </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/components/modal/" class="nav-inner-link" target="_blank">Modals </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/components/navbar/" class="nav-inner-link" target="_blank">Navbars </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/components/navs/" class="nav-inner-link" target="_blank">Navs </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/components/popovers/" class="nav-inner-link" target="_blank">Popovers </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/components/progress/" class="nav-inner-link" target="_blank">Progress </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/content/tables/" class="nav-inner-link" target="_blank">Tables </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/components/toasts/" class="nav-inner-link" target="_blank">Toasts </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/components/tooltips/" class="nav-inner-link" target="_blank">Tooltips </a>
+
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/docs/4.4/content/typography/" class="nav-inner-link" target="_blank">Typography </a>
+
+                </li>
+            </ul>
+          </li>
+        
+      </ul>
+   </nav>
+  </div>
+      
+<div class="col-md-9">
+  <main id="main-doc">    
    
-      </li>
+    
+      <section class="main-section" id="Introduction">
+        <header><h3>Introduction</h3></header>
+          <article>
+            <p>An introductory guide to get started with Propertier Landing Page Template.</p>
+            
+       </article>
+
+ <section class="main-section" id="changelog">
+    <header><h3>Changelog</h3></header>
+          <article>
+            <h4>Initial Release v1.0.0</h4>
+            <p>Initial Release of the template.</p>
+            
+       </article>  
+
+
+        <article>
+             <header><h3>Getting Started</h3></header>
+      <h4>Setting Up The Dev Tools</h4>
+      <p>To get started with Propertier Landing Page Template as a starter template you need to intialize the basic bootstrap and js files and main stylesheet of the theme.</p>
+
+    
+ <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>     
+  <pre>
+    <code class="language-html code">
+&lt;link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"&gt;
+&lt;script src="libs/jquery/jquery.min.js">&lt;/script&gt;
+&lt;script src="assets/bootstrap/js/bootstrap.min.js">&lt;/script&gt;
+&lt;!-- CSS --&gt;
+&lt;link rel="stylesheet" type="text/css" href="style.css"/&gt;
+    </code>
+  </pre>
+</div>
+ 
+        <p>Use <code class="highlight-rouge">.container-fluid</code> for a full width container, spanning the entire width of the viewport.</p> 
+    
+
+
+<div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+  <pre>
+    <code class="language-html code">
+&lt;div class="container-fluid">...&lt;/div&gt;</code>
+  </pre>
+    </div>
+
+
+    <h4>Animation On Scroll(AOS)</h4>
+        <p>To initialize AOS library you need a stylesheet at the head section and two scripts at the bottom of the page first is the main js file of AOS and second is the initialization file of AOS which you must require inorder to intialize the library </p>
+
+
+    
+     <h6>AOS Stylesheet</h6>
+     <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+     <pre>
+    <code class="language-html code">
+&lt;link href="libs/aos/aos-master/dist/aos.css" rel="stylesheet"&gt;
+    </code>
+  </pre>
+</div>
+     
+     <h6>AOS Scripts</h6>
+     <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+     <pre>
+    <code class="language-html code">
+&lt;script src="libs/aos/aos-master/dist/aos.js"&gt;&lt;/script&gt;
+&lt;script src="libs/aos/aos-init.js">&lt;/script&gt;
+    </code>
+  </pre>
+</div>
+</article>
+  <!-- Slider Section Starts -->
+
+
+
+<header><h3>Slick Slider</h3></header>
+       
+       <article>
+         <p>To initialize Slick Slider you need to add these scripts and stylesheets at the  <code class="highlight-rouge">head</code> section.</p>
+         
+         <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+        <pre>
+    <code class="language-html code">
+&lt;link rel="stylesheet" type="text/css" href="assets/slick-slider/slick/slick.css"/&gt;
+&lt;link rel="stylesheet" type="text/css" href="assets/slick-slider/slick/slick-theme.css"/&gt;
+&lt;script type="text/javascript" src="assets/slick-slider/slick/slick.min.js"&gt;&lt;/script&gt;
+
+&lt;!-- Init Slick Slider --&gt;
+&lt;script type="text/javascript" src="assets/slick-slider/slick-init.js"&gt;&lt;/script&gt;
+    </code>
+  </pre>
+</div>
+     
+         <p>You must add  <code class="highlight-rouge">slick-init.js</code> to initialize the slider.</p>
+
+
+</article>
+
+  <!-- Slider Section Ends -->
+
+  <!-- Font Awesome Section Starts -->
+
+
+<article>
+  <header><h3>Font Awesome</h3></header>
+            <p>To initialize Font Awesome you need to add these scripts and stylesheets at the <code class="highlight-rouge">head</code> section.</p>
+
+            <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+            <pre>
+    <code class="language-html code">
+
+&lt;link rel="stylesheet" href="libs/font-awesome/css/all.min.css"&gt;
+&lt;script src="libs/font-awesome/js/all.min.js"&gt;&lt;/script&gt;
+    </code>
+  </pre>
+     </div>       
+    
+
+  <!-- Font Awesome Sections Ends -->
+
+
+
+     </section>
+
+
+
+
+
+
+  
+  <section class="main-section" id="structure">
+    <header><h3>Assets</h3></header>
+          <article>
+            <p>Assets folder contains all of the assets referened in htm pages.</p>
+            <p class="ppd">images folder contains folder names of images as <code class="highlight-rouge">portfolios</code>, <code class="highlight-rouge">team</code> etc.
+            in which respective images are placed.</p>
+            <p>Bootstrap <code class="highlight-rouge">css</code> and <code class="highlight-rouge">js</code> files are included in bootstrap folder, bootstrap <code class="highlight-rouge">scss</code> files are also included in bootstrap folder with predefined variables.</p>
+            
+       </article>  
+
+
+       <header><h3>Libs</h3></header>
+          <article>
+            <p>The <code class="highlight-rouge">libs</code> folder include libraries like aos,font-awesome,jquery and zoom-master.</p>
+            
+       </article>
+
+
+       <header><h3>CSS</h3></header>
+          <article>
+            <p>The main stylesheet of the theme is included in the main folder of Propertier Landing Page Template along with html pages while external stylesheets are present inside <code class="highlight-rouge">css</code> folder.</p>
+
+            <p>Other stylesheets of frameworks and libraries that are included in <code class="highlight-rouge">assets</code> and <code class="highlight-rouge">libs</code> folder respectively.</p>
+            
+       </article>
+
+
+       <header><h3>JS</h3></header>
+          <article>
+            <p>JS files used in theme are included in <code class="highlight-rouge">js</code> folder where mostly initialization scripts are placed for different functionality of the theme.</p>
+            
+       </article>
+  </section>
+
+
+
+
+       <header><h3>Libs</h3></header>
+          <article>
+            <p>The <code class="highlight-rouge">libs</code> folder include libraries like aos,font-awesome,jquery and zoom-master.</p>
+            
+       </article>
+
+  </section>
+
+<section class="main-section" id="stemplate">
+       
+       <h3>Starter Template</h3>
+          <article>
+
+            <p>Propertier Landing Page Template includes a starter template which will help you to get a quick start</p>
+            
+            <h4>Getting Started</h4>
+            <p>Below is the code for a very basic starter template that includes all the important tools to get started with a basic template.</p>
+
+            <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+            <pre>
+    <code class="language-html code">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"&gt;
+  &lt;script src="libs/jquery/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script src="assets/bootstrap/js/bootstrap.min.js"&gt;&lt;/script&gt;
+  
+
+&lt;link rel="stylesheet" href="libs/font-awesome/css/all.min.css"&gt;
+
+&lt;!-- CSS --&gt;
+
+&lt;link rel="stylesheet" type="text/css" href="style.css"/&gt;
+
+
+&lt;script src="libs/font-awesome/js/all.min.js"&gt;&lt;/script&gt;
+  
+  &lt;!-- Slick Slider --&gt;
+
+  &lt;link rel="stylesheet" type="text/css" href="assets/slick-slider/slick/slick.css"/&gt;
+  &lt;link rel="stylesheet" type="text/css" href="assets/slick-slider/slick/slick-theme.css"/&gt;
+  &lt;script type="text/javascript" src="assets/slick-slider/slick/slick.min.js"&gt;&lt;/script&gt;
+
+  &lt;!-- Init Slick Slider --&gt;
+  &lt;script type="text/javascript" src="assets/slick-slider/slick-init.js"&gt;&lt;/script&gt;
+
+
+  &lt;!-- Animate On Scroll  --&gt;
+
+&lt;link href="libs/aos/aos-master/dist/aos.css" rel="stylesheet"&gt;
+
+
+  &lt;title&gt;Page Title&lt;/title&gt;
+
+&lt;/head&gt;
+
+&lt;script src="js/main.js"&gt;&lt;/script&gt;
+&lt;body&gt;
+&lt;div class="loader"&gt;
+&lt;div id="pulse-loader"&gt;
+  &lt;div class="pulse-loader-1"&gt;&lt;/div&gt;
+  &lt;div class="pulse-loader-2"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;script src="libs/aos/aos-master/dist/aos.js"&gt;&lt;/script&gt;
+&lt;script src="libs/aos/aos-init.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </code>
+  </pre>
+     </div>   
+
+
+     <h4>Starter Template With Navbar And Footer</h4>
+
+     <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+            <pre>
+    <code class="language-html code">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"&gt;
+  &lt;script src="libs/jquery/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script src="assets/bootstrap/js/bootstrap.min.js"&gt;&lt;/script&gt;
+  
+
+&lt;link rel="stylesheet" href="libs/font-awesome/css/all.min.css"&gt;
+
+&lt;!-- CSS --&gt;
+
+&lt;link rel="stylesheet" type="text/css" href="style.css"/&gt;
+
+
+&lt;script src="libs/font-awesome/js/all.min.js"&gt;&lt;/script&gt;
+  
+  &lt;!-- Slick Slider --&gt;
+
+
+  &lt;link rel="stylesheet" type="text/css" href="assets/slick-slider/slick/slick.css"/&gt;
+  &lt;link rel="stylesheet" type="text/css" href="assets/slick-slider/slick/slick-theme.css"/&gt;
+  &lt;script type="text/javascript" src="assets/slick-slider/slick/slick.min.js"&gt;&lt;/script&gt;
+
+  &lt;!-- Init Slick Slider --&gt;
+  &lt;script type="text/javascript" src="assets/slick-slider/slick-init.js"&gt;&lt;/script&gt;
+
+
+  &lt;!-- Animate On Scroll  --&gt;
+
+
+
+&lt;link href="libs/aos/aos-master/dist/aos.css" rel="stylesheet"&gt;
+
+
+
+  &lt;title&gt;Page Title&lt;/title&gt;
+
+&lt;/head&gt;
+
+&lt;script src="js/main.js"&gt;&lt;/script&gt;
+&lt;body&gt;
+&lt;div class="loader"&gt;
+&lt;div id="pulse-loader"&gt;
+  &lt;div class="pulse-loader-1"&gt;&lt;/div&gt;
+  &lt;div class="pulse-loader-2"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="header-nav"&gt;
+  &lt;div class="row header-inner"&gt;
+    &lt;div class="col-6"&gt;
+      &lt;span class="hs cw plr"&gt;&lt;i class="cgg cw fa fa-clock"&gt;&lt;/i&gt; Mon-Friday 9am - 5pm&lt;/span&gt;
+      &lt;span class="hs cw plr"&gt;&lt;i class="cgg cw fa fa-phone"&gt;&lt;/i&gt; 123-123-123&lt;/span&gt;
+      &lt;span class="hs cw plr"&gt;&lt;i class="cgg cw fa fa-envelope"&gt;&lt;/i&gt; email@domain.com&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="col-6"&gt;
+      &lt;div class="social-inner text-right"&gt;
+        Visit Our Social Icons
+        &lt;i class="cw fab fa-facebook fa-lg psi"&gt;&lt;/i&gt;
+        &lt;i class="cw fab fa-instagram fa-lg psi"&gt;&lt;/i&gt;
+        &lt;i class="cw fab fa-youtube fa-lg psi"&gt;&lt;/i&gt;
+        &lt;i class="cw fab fa-linkedin fa-lg psi"&gt;&lt;/i&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;nav class="navbar navbar-expand-lg navbar-light cs-nav" id="navbar"&gt;
+  &lt;a class="navbar-brand" href="#"&gt;&lt;img src="assets/images/logos/logo.png" alt="Site Logo" class="site_logo"&gt;&lt;/a&gt;
+  &lt;button class="navbar-toggler navbar-toggle x collapsed" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"&gt;
+    &lt;!-- &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt; --&gt;
+    
+    &lt;span class="icon-bar"&gt;&lt;/span&gt;
+    &lt;span class="icon-bar"&gt;&lt;/span&gt;
+    &lt;span class="icon-bar"&gt;&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;div class="navbar-collapse collapse" id="navbarText" style=""&gt;
+    &lt;ul class="navbar-nav ml-auto"&gt;
+      &lt;li class="nav-item active"&gt;
+        &lt;a class="nav-link" href="#"&gt;HOME &lt;span class="sr-only"&gt;(current)&lt;/span&gt;&lt;/a&gt;
+
+
+          &lt;ul class="nav-dropdown"&gt;
+              &lt;li&gt;&lt;a href="index.html"&gt;Home 1&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="index-2.html"&gt;Home 2&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="index-3.html"&gt;Home 3&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="index-4.html"&gt;Home 4&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="index-5.html"&gt;Home 5&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="index-6.html"&gt;Home 6&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+
+      &lt;/li&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#"&gt;PAGES&lt;/a&gt;
+        &lt;ul class="nav-dropdown"&gt;
+            &lt;li&gt;&lt;a href="#"&gt;About Us &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+
+
+            &lt;ul class="nav-dropdown-sub"&gt;
+              &lt;li&gt;&lt;a href="about-us-1.html"&gt;About Us 1&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="about-us-2.html"&gt;About Us 2&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="about-us-3.html"&gt;About Us 3&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+
+            &lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;Team &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+
+            &lt;ul class="nav-dropdown-sub"&gt;
+              &lt;li&gt;&lt;a href="team.html"&gt;Team 1&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="team-2.html"&gt;Team 2&lt;/a&gt;&lt;/li&gt;
+      
+            &lt;/ul&gt;
+
+          &lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="testimonials.html"&gt;Testimonials &lt;!-- &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt; --&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#"&gt;Contact Us &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+
+            &lt;ul class="nav-dropdown-sub"&gt;
+              &lt;li&gt;&lt;a href="contact-us.html"&gt;Contact Us 1&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="contact-us-2.html"&gt;Contact Us 2&lt;/a&gt;&lt;/li&gt;
+      
+            &lt;/ul&gt;
+
+          &lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="under-construction.html"&gt;Under Construction &lt;!-- &lt;i class="fa fa-angle-right"&gt; --&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="error-404.html"&gt;Error Page &lt;!-- &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt; --&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="comming-soon.html"&gt;Coming Soon &lt;!-- &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt; --&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      
+       &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#"&gt;PORTFOLIO&lt;/a&gt;
+
+       
+
+        &lt;ul class="nav-dropdown"&gt;
+
+
+            &lt;li&gt;&lt;a href="#"&gt;Grid Layout &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+
+           &lt;ul class="nav-dropdown-sub"&gt;
+              &lt;li&gt;&lt;a href="portfolio-grid-1.html"&gt;1 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="portfolio-grid-2.html"&gt;2 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="portfolio-grid-3.html"&gt;3 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="portfolio-grid-1.html"&gt;4 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="portfolio-grid-2.html"&gt;5 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="portfolio-grid-3.html"&gt;6 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="portfolio-no-margins.html"&gt;No Margins&lt;/a&gt;&lt;/li&gt;
+
+            &lt;/ul&gt;
+
+            &lt;/a&gt;&lt;/li&gt;
+    
+
+            &lt;li&gt;&lt;a href="#"&gt;Mansory Layout &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+
+           &lt;ul class="nav-dropdown-sub"&gt;
+              &lt;li&gt;&lt;a href="mansory-grid-2.html"&gt;2 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="mansory-grid-3.html"&gt;3 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="mansory-grid-1.html"&gt;4 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="mansory-grid-2.html"&gt;5 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="mansory-grid-3.html"&gt;6 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="mansory-grid-no-margins.html"&gt;No Margins&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;/a&gt;&lt;/li&gt;
+
+               &lt;li&gt;&lt;a href="#"&gt;Single Layout &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+
+           &lt;ul class="nav-dropdown-sub"&gt;
+              &lt;li&gt;&lt;a href="porfolio-single-wide.html"&gt;Wide Slider&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="portfolio-single.html"&gt;Small Slider&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="portfolio-single-full.html"&gt;Full Width Slider&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="portfolio-single-right-sidebar.html"&gt;Slider Right Sidebar&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="portfolio-single-left-sidebar.html"&gt;Slider Left Sidebar&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;/a&gt;&lt;/li&gt;
+        
+        &lt;/ul&gt;
+
+      &lt;/li&gt;
+
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#"&gt;BLOG&lt;/a&gt;
+
+
+        &lt;ul class="nav-dropdown"&gt;
+
+
+       &lt;li&gt;&lt;a href="#"&gt;Grid Layout &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+
+           &lt;ul class="nav-dropdown-sub"&gt;
+              &lt;li&gt;&lt;a href="blog-grid-2-detailed.html"&gt;2 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="blog-grid-3-detailed.html"&gt;3 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="blog-grid-4-detailed.html"&gt;4 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="blog-grid-right-sidebar.html"&gt;Right Sidebar&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="blog-grid-left-sidebar.html"&gt;Left Sidebar&lt;/a&gt;&lt;/li&gt;
+
+            &lt;/ul&gt;
+
+            &lt;/a&gt;&lt;/li&gt;
+
+            &lt;li&gt;&lt;a href="#"&gt;Single Post Types &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+
+           &lt;ul class="nav-dropdown-sub"&gt;
+              &lt;li&gt;&lt;a href="blog-single-full.html"&gt;Standard Post&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="blog-single-full-aside.html"&gt;Aside Post&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="blog-single-full-gallery.html"&gt;Gallery Post&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="blog-single-full-video.html"&gt;Video Post&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="blog-single-full-audio.html"&gt;Audio Post&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="blog-single-full-link.html"&gt;Link Post&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;/a&gt;&lt;/li&gt;
+
+            &lt;li&gt;&lt;a href="#"&gt;Single Post Layout &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+
+           &lt;ul class="nav-dropdown-sub"&gt;
+              &lt;li&gt;&lt;a href="blog-full-width.html"&gt;Full Width&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="blog-right-sidebar.html"&gt;Right Sidebar&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="blog-left-sidebar.html"&gt;Left Sidebar&lt;/a&gt;&lt;/li&gt;
+
+            &lt;/ul&gt;
+
+            &lt;/a&gt;&lt;/li&gt;
+
+          &lt;/ul&gt;
+
+      &lt;/li&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#"&gt;ELEMENTS&lt;/a&gt;
+
+        &lt;div class="row nav-dropdown abs-c"&gt;
+
+          &lt;div class="col-md-6"&gt;
+            &lt;ul class="mega-custom"&gt;
+
+              &lt;h6 class="text-center ppd"&gt;Elements Basic&lt;/h6&gt;
+              &lt;li&gt;&lt;a href="elements-buttons.html"&gt;Buttons&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="elements-ctas.html"&gt;CTA's&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="elements-lists.html"&gt;Lists&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="elements-blockquotes.html"&gt;Block Quotes&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="elements-fonts.html"&gt;Fonts&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+          
+           &lt;div class="col-md-6"&gt;
+            &lt;ul class="mega-custom"&gt;
+              &lt;h6 class="text-center ppd"&gt;Elements Advanced&lt;/h6&gt;
+              &lt;li&gt;&lt;a href="elements-accordions.html"&gt;Accordions&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="elements-pricing-tables.html"&gt;Pricing Tables&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="elements-testimonials.html"&gt;Testimonials&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="elements-progress.html"&gt;Progress Bars&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="elements-counters.html"&gt;Counters&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+
+        &lt;/div&gt;
+
+      &lt;/li&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#"&gt;SHOP&lt;/a&gt;
+
+
+        &lt;ul class="nav-dropdown"&gt;
+
+
+       &lt;li&gt;&lt;a href="#"&gt;Single Product &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+
+           &lt;ul class="nav-dropdown-sub"&gt;
+              &lt;li&gt;&lt;a href="shop-single.html"&gt;Full Width&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="shop-single-slider.html"&gt;Full Width Slider&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="shop-single-right-sidebar.html"&gt;Slider Right Sidebar&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="shop-single-slider-left-sidebar.html"&gt;Slider Left Sidebar&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="shop-single-thumbnails.html"&gt;Full Width Thumbnails&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="shop-single-thumbnails-right-sidebar.html"&gt;Thumbnails Right Sidebar&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="shop-single-thumbnails-left-sidebar.html"&gt;Thumbnails Left Sidebar&lt;/a&gt;&lt;/li&gt;
+
+            &lt;/ul&gt;
+
+            &lt;/a&gt;&lt;/li&gt;
+
+            &lt;li&gt;&lt;a href="#"&gt;1 Column &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+
+           &lt;ul class="nav-dropdown-sub"&gt;
+            &lt;li&gt;&lt;a href="shop-grid-1.html"&gt;1 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="shop-grid-1-right-sidebar.html"&gt;1 Column Right Sidebar&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="shop-grid-1-left-sidebar.html"&gt;1 Column Left Sidebar&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;/a&gt;&lt;/li&gt;
+
+            &lt;li&gt;&lt;a href="#"&gt;2 Column &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+
+           &lt;ul class="nav-dropdown-sub"&gt;
+    
+              &lt;li&gt;&lt;a href="shop-grid-2.html"&gt;2 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="shop-grid-2-right-sidebar.html"&gt;2 Column Right Sidebar&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="shop-grid-1-left-sidebar.html"&gt;2 Column Left Sidebar&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;/a&gt;&lt;/li&gt;
+
+            &lt;li&gt;&lt;a href="#"&gt;3 Column&lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+
+           &lt;ul class="nav-dropdown-sub"&gt;
+              &lt;li&gt;&lt;a href="shop-grid-3.html"&gt;3 Column&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="shop-grid-3-right-sidebar.html"&gt;3 Column Right Sidebar&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="shop-grid-1-left-sidebar.html"&gt;3 Column Left Sidebar&lt;/a&gt;&lt;/li&gt;
+  
+            &lt;/ul&gt;
+
+            &lt;/a&gt;&lt;/li&gt;
+
+            &lt;li&gt;&lt;a href="shop-grid-4"&gt;4 Column&lt;/a&gt;&lt;/li&gt;
+
+             &lt;li&gt;&lt;a href="#"&gt;Shop Pages &lt;i class="fa fa-angle-right"&gt;&lt;/i&gt;
+
+           &lt;ul class="nav-dropdown-sub"&gt;
+              &lt;li&gt;&lt;a href="shop-cart.html"&gt;Cart&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="shop-checkout.html"&gt;Checkout&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="shop-my-account.html"&gt;My Account&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;/a&gt;&lt;/li&gt;
+
+          &lt;/ul&gt;
+
+
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;form class="form-inline my-2 my-lg-0"&gt;
+      &lt;div class="search_toggle"&gt;&lt;input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"&gt;&lt;button class="btn btn-outline-success my-2 my-sm-0 cs_srch" type="submit"&gt;&lt;i class="fas fa-search"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/div&gt;
+      &lt;button class="btn btn-outline-success my-2 my-sm-0 cs_srch s_toggle" type="submit"&gt;&lt;i class="fas fa-search"&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;/form&gt;
+    &lt;div class="cart-nav"&gt;
+
+
+       &lt;div class="cart-info text-center"&gt;
+          &lt;table class="table table-condensed cart-table"&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Product&lt;/th&gt;
+        &lt;th&gt;Price&lt;/th&gt;    
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;a href="#"&gt;&lt;i class="fa fa-times cgg fa-lg"&gt;&lt;/i&gt;
+         &lt;img alt="Cart Image" class="cart-img" src="assets/images/shop/bag.jpg"&gt; Bag&lt;/a&gt;&lt;/td&gt;
+        &lt;td&gt;$79&lt;/td&gt;&gt;    
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+        &lt;div class="cart_btn_div"&gt;&lt;a href="shop-cart.html" class="cart_btn"&gt;View Cart&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+
+
+      &lt;div class="cart_sp"&gt;&lt;span class="sp_content"&gt;1&lt;/span&gt;&lt;/div&gt;&lt;i class="fa fa-shopping-cart fa-lg cgg"&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;div class="get-quote"&gt;
+      &lt;a href="#"&gt;Request A Quote&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+
+&lt;div class="container"&gt;
+  
+&lt;/div&gt;
+
+
+&lt;!-- Background Container Ends --&gt;
+
+&lt;!-- Btm Container starts --&gt;
+&lt;div class="btm_container"&gt;
+&lt;div class="container"&gt;
+
+&lt;div class="row"&gt;
+  
+
+&lt;div class="col-md-3 cbtm_col"&gt;
+  &lt;h6&gt; Demo Location&lt;/h6&gt;
+  &lt;p&gt;&lt;i class="fa fa-envelope"&gt;&lt;/i&gt; email@domain.com&lt;/p&gt;
+  &lt;p&gt;&lt;i class="fa fa-phone"&gt;&lt;/i&gt; 111-111-111&lt;/p&gt;
+  &lt;p&gt;&lt;i class="fa fa-globe"&gt;&lt;/i&gt; yourwebsite-dot-com&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="col-md-3 cbtm_col"&gt;
+  &lt;h6&gt;Menu&lt;/h6&gt;
+  &lt;p&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href="#"&gt;Services&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;a href="#"&gt;Contact Us&lt;/a&gt;&lt;/p&gt;
+  
+&lt;/div&gt;
+
+
+&lt;div class="col-md-3 cbtm_col"&gt;
+  &lt;h6&gt;Social Links&lt;/h6&gt;
+  &lt;p&gt;&lt;a href="#"&gt;&lt;i class="fab fa-facebook fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a href="#"&gt;&lt;i class="fab fa-instagram fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a href="#"&gt;&lt;i class="fab fa-youtube fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a href="#"&gt;&lt;i class="fab fa-linkedin fa-2x"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+  
+&lt;/div&gt;
+
+&lt;div class="col-md-3 cbtm_col"&gt;
+  &lt;h6&gt;Demo Address&lt;/h6&gt;
+
+
+  &lt;p&gt;knowledgeaware.tk&lt;/p&gt;
+  &lt;p&gt;Demo Floor Address 123&lt;/p&gt;
+  &lt;p&gt;Karachi, Pakistan&lt;/p&gt;
+    
+&lt;/div&gt;
+
+
+&lt;div class="text-center cright"&gt;&lt;p&gt;&copy;Copyrights All Rights Reserved&lt;/p&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Btm container ends --&gt;
+
+&lt;script src="libs/aos/aos-master/dist/aos.js"&gt;&lt;/script&gt;
+&lt;script src="libs/aos/aos-init.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </code>
+  </pre>
+     </div> 
+
+          </article>
+    </section>
+
+    <section class="main-section" id="pageload">
+      <h3>Pageload Animations</h3>
+       
+          <article>
+            <p>Propertier Landing Page Template includes 3 pageload animations which will run until page is loaded.</p>
+
+
+          <div class="alert alert-info">
+  <strong>Note!</strong> As default pageloader <code class="highlight-rouge">GIF</code> animation is included at the top of all html pages right after <code class="highlight-rouge">body</code> tag which is more compatible for browsers.
+</div>
+
+
+
+         <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+           <pre>
+           
+           <code class="language-html code">
+&lt;div class="loader"&gt;
+&lt;div id="pulse-loader"&gt;
+  &lt;div class="pulse-loader-1"&gt;&lt;/div&gt;
+  &lt;div class="pulse-loader-2"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+          </code>
+         </pre>
+       </div>
+
+
+       <p>To use <code class="highlight-rouge">CSS</code> animations you can use these three loaders at the top of the page after <code class="highlight-rouge">body</code> tag.</p>
+
+
+        <div class="alert alert-info">
+  <strong>Note!</strong> For the animations below you need to include the html after the <code class="highlight-rouge">body</code> tag and <code class="highlight-rouge">css</code> after the main stylesheet of the template inorder to get it work.
+</div>
+ 
+
+        <h5>Block Animation</h5>
+
+       <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+           <pre>
+           
+           <code class="language-html code">
+&lt;div class="loader loadingio-spinner-blocks-7gdh1h44sa"&gt;&lt;div class="ldio-0a6y8bae0ii"&gt;
+&lt;div style='left:38px;top:38px;animation-delay:0s'&gt;&lt;/div&gt;&lt;div style='left:80px;top:38px;animation-delay:0.125s'&gt;&lt;/div&gt;&lt;div style='left:122px;top:38px;animation-delay:0.25s'&gt;&lt;/div&gt;&lt;div style='left:38px;top:80px;animation-delay:0.875s'&gt;&lt;/div&gt;&lt;div style='left:122px;top:80px;animation-delay:0.375s'&gt;&lt;/div&gt;&lt;div style='left:38px;top:122px;animation-delay:0.75s'&gt;&lt;/div&gt;&lt;div style='left:80px;top:122px;animation-delay:0.625s'&gt;&lt;/div&gt;&lt;div style='left:122px;top:122px;animation-delay:0.5s'&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+          </code>
+         </pre>
+       </div>
+
+       <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+           <pre>
+           
+           <code class="language-html code">
+&lt;!-- Block Icon CSS --&gt;
+&lt;link rel="stylesheet" type="text/css" href="assets/icons/block-icon.css"/&gt;
+          </code>
+         </pre>
+       </div>
+
+       <h5>Spinner Animation </h5>
+
+       <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+           <pre>
+           
+           <code class="language-html code">
+&lt;div class="loader loadingio-spinner-spinner-wofbxj1fcua"&gt;&lt;div class="ldio-qts9jy12bkq"&gt;
+&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+          </code>
+         </pre>
+       </div>
+
+      <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+           <pre>
+           
+           <code class="language-html code">
+&lt;!-- Spinner Icon CSS --&gt;
+&lt;link rel="stylesheet" type="text/css" href="assets/icons/spinner-icon.css"/&gt;
+          </code>
+         </pre>
+       </div>
+
+
+       <h5>Spinner Animation 2 </h5>
+
+       <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+           <pre>
+           
+           <code class="language-html code">
+&lt;div class="loader loadingio-spinner-ripple-qvlnknvvpms"&gt;&lt;div class="ldio-webjfmldk29"&gt;
+&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+          </code>
+         </pre>
+       </div>
+       <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+           <pre>
+           
+           <code class="language-html code">
+&lt;!-- Spinner Icon 2 CSS --&gt;
+&lt;link rel="stylesheet" type="text/css" href="assets/icons/spinner-icon-2.css"/&gt;
+          </code>
+         </pre>
+       </div>
+
+       <h4>Custom Animation Colors</h4>
+
+       <p>To add a custom color to the animation you can use the icon's css file which is located at <code class="highlight-rouge">assets/icons/block-icon.css</code> for example then you can replace the colors there with you custom colors.</p>
+
+       <div class="alert alert-info">
+  All pageload animations here are from <a href="https:www.loading.io" target="_blank">loading.io</a>
+</div>
+
+          </article>
+    </section>
+
+    <section class="main-section" id="backtotop">
+       <h3>Back To Top Button</h3>
+          <article>
+            <p>The Back To Top button allows the user to scroll to the top of the page easily without having to scroll all the way through.</p>
+            
+            
+
+
+            <h4>How to add the button</h4>
+            <p>By default this button is added to all of the homepages but if you want to add it to a page then you can use the following <code class="highlight-rouge">html</code> and place it below the <code class="highlight-rouge">body</code> tag.</p>
+
+
+            <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+           <pre>
+           <code class="language-html code">
+
+&lt;!-- Back to top button --&gt;
+&lt;a id="backtotop"&gt;&lt;/a&gt;
+          </code>
+         </pre>
+       </div>
+
+         <h4>Change Button Color</h4>
+
+         <p>For main homepage the Back To Top button css is present inside the main stylesheet at the very bottom of the stylesheet while for homepages its corresponding css is present inside their external stylesheets inside <code class="highlight-rouge">css</code> folders also at the very bottom of the stylesheet.</p>
+
+
+           <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+           <pre>
+           <code class="language-css code">
+
+#backtotop {
+  display: inline-block;
+  background-color: #28a745;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#backtotop::after {
+  content: "\f106";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+          </code>
+         </pre>
+       </div>
+
+<p>For other stylesheets you can just change the single line of code to change the color as:</p>
+
+<div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+           <pre>
+           <code class="language-css code">
+
+#backtotop {
+  background-color: #e94d65;
+}
+          </code>
+         </pre>
+       </div>
+          </article>
+    </section>
+
+
+
+
+    <section class="main-section" id="general">
+          <h3>CSS</h3>
+          <article>
+            <h4>General CSS</h4>
+
+           <p>Propertier Landing Page Template includes main stylesheet named <code class="highlight-rouge">style.css</code> which is the main styleseet of the theme.</p>
+
+
+          <h5>Fonts Import</h5>
+          <p>All the fonts used in Propertier Landing Page Template are imported at the top of the stylesheet with commented code for unused fonts. Inorder to replace the font style you can use the commented code of the font and replace it with main code.</p>
+
+       <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+       <pre>
+       <code class="language-css code">
+html,body,h1,h2,h3,h4,h5,h6,a,p{
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+font-family: 'Poppins', sans-serif !important;
+-webkit-font-smoothing: grayscale;
+-moz-osx-font-smoothing: grayscale;
+font-smoothing: grayscale;
+                }
+          </code>
+         </pre>
+       </div>
+
+          <h5>Font Weights</h5>
+          <p>Following are the classes used for font weights so can just add them to the element to apply font styling.</p>
+
+
+           <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+           <pre>
+           
+           <code class="language-css code">
+.fn {
+  font-weight: normal;
+}
+
+.f7 {
+  font-weight: 700;
+}
+
+.f8{
+  font-weight: 800;
+}
+
+.f9{
+  font-weight: 900;
+}
+          </code>
+         </pre>
+       </div>
+
+          <h5>Margins & Paddings</h5>
+           <p>Inside <code class="highlight-rouge">style.css</code> there is a section commented general css which consists general styling of the template as:</p>
+           <h6>Margins General Classes</h6>
+           <ul>
+            <li>m0 = <code class="highlight-rouge">margin:0;</code></li>
+            <li>mt0 = <code class="highlight-rouge">margin-top:0;</code></li>
+             <li>mb0 = <code class="highlight-rouge">margin-bottom:0;</code></li>
+             <li>mt1 = <code class="highlight-rouge">margin-top:1em;</code></li>
+             <li>mt2 = <code class="highlight-rouge">margin-top:2em;</code></li>
+             <li>mt3 = <code class="highlight-rouge">margin-top:3em;</code></li>
+             <li>mb1 = <code class="highlight-rouge">margin-bottom:1em;</code></li>
+             <li>mb2 = <code class="highlight-rouge">margin-bottom:2em;</code></li>
+             <li>mb3 = <code class="highlight-rouge">margin-bottom:3em;</code></li>
+             <li>mg = <code class="highlight-rouge">margin:1em;</code></li>
+             <li>mg3 = <code class="highlight-rouge">margin:3em 0;</code></li>
+
+           </ul>
+
+           <h6>Padding General Classes</h6>
+           <ul>
+            <li>p0 = <code class="highlight-rouge">padding:0;</code></li>
+            <li>pt0 = <code class="highlight-rouge">padding-top:0;</code></li>
+             <li>pb0 = <code class="highlight-rouge">padding-bottom:0;</code></li>
+             <li>pt1 = <code class="highlight-rouge">padding-top:1em;</code></li>
+             <li>pt2 = <code class="highlight-rouge">padding-top:2em;</code></li>
+             <li>pt3 = <code class="highlight-rouge">padding-top:3em;</code></li>
+             <li>pb1 = <code class="highlight-rouge">padding-bottom:1em;</code></li>
+             <li>pb2 = <code class="highlight-rouge">padding-bottom:2em;</code></li>
+             <li>pb3 = <code class="highlight-rouge">padding-bottom:3em;</code></li>
+             <li>p1 = <code class="highlight-rouge">padding:1em;</code></li>
+             <li>ppd = <code class="highlight-rouge">padding:1em 0;</code></li>
+              <li>p3 = <code class="highlight-rouge">padding:3em 0;</code></li>
+
+           </ul>
+
+          
+
+
+          </article>
+    </section>
+
+
+
+
+    <section class="main-section" id="backgrounds">
+       <h3>Backgrounds</h3>
+          <article>
+            
+            <h4>Homepage Slider Background</h4>
+          <p>The homepage slider background uses <code class="highlight-rouge">bg-cs</code> class which is used at the top of <code class="highlight-rouge">&lt;header&gt;</code> tag </p>
+
+          <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+           <pre>
+           
+           <code class="language-html code">
+&lt;!-- Background Container Starts --&gt;
+&lt;div class="bg-cs"&gt;
+          </code>
+         </pre>
+       </div>
+
+       <p>All external stylesheets included uses the same class to override the top banner background of main stylesheet.</p>
+
+       <p>If you want to change the top banner background on any specific homepage, you can simply change it inside the external stylesheet of the page rather than changing the main background class.</p>
+
+
+
+       <h4>Slider Background</h4>
+       <p>To change the background of the main slide you can use <code class="highlight-rouge">cs_slider, cs_slider_2 & cs_slider_3</code> classes which contains backgrounds for the main banner slider. </p>
+          </article>
+
+          <p>Inside <code class="highlight-rouge">style.css</code> these three classes are present although you can change the slider backgrounds from <code class="highlight-rouge">style.css</code> or you can override these classes inside external stylesheets as <code class="highlight-rouge">style-override.css</code> where they are commented at the bottom of the stylesheet. You can uncomment them to apply custom backgrounds.</p>
+
+         <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+           <pre>
+           
+           <code class="language-css code">
+/*.cs_slider {
+    height: 100%;
+    background-image: url(assets/images/slider-images/slider_img_1.jpg);
+    background-size: cover;
+}
+
+.cs_slider_2 {
+    height: 100%;
+    background-image: url(assets/images/slider-images/slider_img_4.jpg);
+    background-size: cover;
+}
+
+.cs_slider_3 {
+    height: 100%;
+    background-image: url(assets/images/slider-images/slider_img_3.jpg);
+    background-size: cover;
+}*/
+          </code>
+         </pre>
+       </div>
+
+    </section>
+
+
+    <section class="main-section" id="navbars">
+
+    <h3>Navbars</h3>
+       
+          <article>
+            <p>Propertier Landing Page Template contains two navbars styles which are <code class="highlight-rouge">plain</code> and <code class="highlight-rouge">transparent</code>. Among 6 homepages both plain and transparent navbars are used.</p>
+
+            <h4>Transparent Navbar</h4>
+
+            <p>By default <code class="highlight-rouge">plain</code> navbar is activated but you can easily switch to transparent navbar.</p>
+
+            <div class="alert alert-info">
+             <strong>Note!</strong> Inorder to use transparent navbar you must use a homepage that contains transparent navbar eg: <code class="highlight-rouge">index-2.html</code>
+             </div>
+
+            
+             <h4>Remove Transparent</h4>
+             <p>To remove the transparency of the navbar you can simply add a class <code class="highlight-rouge">bgp</code> to the <code class="highlight-rouge">&lt;header&gt;</code> and <code class="highlight-rouge">&lt;nav&gt;</code> element of the page which will make the navbar <code class="highlight-rouge">plain</code>.</p>
+
+             <h4>Sticky Navbar</h4>
+             <p>By default all navbars in Propertier Landing Page Template are sticky but if you don't want a sticky navbar you can simple remove it by adding a class <code class="highlight-rouge">non-sticky</code> to the <code class="highlight-rouge">&lt;nav&gt;</code> element.</p>
+
+
+            <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+           <pre>
+           
+           <code class="language-html code">
+&lt;nav class="navbar navbar-expand-lg navbar-light cs-nav non-sticky" id="navbar"&gt;
+
+...
+
+&lt;/nav&gt;
+          </code>
+         </pre>
+       </div>
+
+            
+          </article>
+    </section>
+
+
+  
+    <section class="main-section" id="Javascript">
+    <header><h3>Javascript</h3></header>
+
+    
+           <section class="inner-section" id="sliders">
+           <header><h4>Sliders</h4></header>
+<article>
+
+          <p>Propertier Landing Page Template uses slick slider where which is inside <code class="highlight-rouge">assets</code> folder.</p>
+          
+          <h6>Initializing Sliders</h6>
+
+          <p class="ppd">To initialize slider you must include <code class="highlight-rouge">slick-init.js</code> files at the head section of your theme</p>
+          <p>Inside <code class="highlight-rouge">slick-init.js</code> different sliders are included you can use the classname of the slider to include it in html page.</p>
+
+          <ul>
+            <li>Main slider is class named <code class="highlight-rouge">.slider-main</code></li>
+            <li>Reviews slider is class named <code class="highlight-rouge">.slider-rw</code></li>
+            <li>Reviews Full Width slider is class named <code class="highlight-rouge">.slider-rwf</code></li>
+            <li>Clients slider is class named <code class="highlight-rouge">.slider-cs</code></li>
+            <li>Thumnail slider is class named <code class="highlight-rouge">.slider-for</code> where its nested thumnail navigation slider is named <code class="highlight-rouge">.slider-nav</code>.</li>
+          </ul>
 
       
-       <li class="nav-item">
-        <a class="nav-link" href="#services">Service</a>
-   
-      </li>
+          <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>   
+          <pre>
 
+              <code class="language-html code">
+&lt;div class="slider slider-main"&gt;
 
-      <li class="nav-item">
-        <a class="nav-link" href="#clients">Säljare</a>
-   
-      </li>
+&lt;div class="slider-1"&gt;
+// Slider Content Here
+&lt;/div&gt;
 
+&lt;div class="slider-2"&gt;
+                 // Slider Content Here
+&lt;/div&gt;
 
-      <li class="nav-item">
-        <a class="nav-link" href="#features">Projekt</a>
-   
-      </li>
+&lt;div class="slider-3"&gt;
+// Slider Content Here
+&lt;/div&gt;
 
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Kontakta Oss</a>
+&lt;/div&gt;
+            </code>
+         </pre>
+       </div>
+            
 
-
-      </li>
-     
- 
-    </ul>
-
-</div>
-   
-</nav>
-<!-- Navbar Ends -->
-
-
-<!-- Background Container Starts -->
-<div class="white-bg-abs mt-0">
-
-
-<!-- Slider Container Starts -->
-<!-- Slide 1 -->
-<div class="cs_slider prlx_slide" id="main">
-  <div class="slider_container over_lay">
-    <div class="rellax" data-rellax-speed="7">
-
-
-
-<div class="row align-items-center">
-  <!-- Banner Info Starts -->
-  <div class="col-md-6 offset-1">
-      <div class="banner_info_form">
-        <h1 class="slider_h1 cs_sp pb-3 text-left" data-aos="fade-up" data-aos-duration="500">Zahra halesh khob nist</h1>
-        <p class="pb-3 text-left" data-aos="fade-up" data-aos-duration="800">Vi är glada att du har hittat till oss, din pålitliga partner för alla dina fastighetsbehov. Hos oss strävar vi efter att erbjuda en professionell 
-          och personlig service för att göra din fastighetsupplevelse så smidig och givande som möjligt.</p>
-        <div class="banner_review" data-aos="fade-up" data-aos-duration="1200">
-          <div class="itl">Betrodd av många kunder: </div>
-           <div class="rw_stars">
-                        <i class="fas fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-           </div>
-        </div>
-      </div>
-  </div>
-  <!-- Banner Info Ends -->
-
-   <!-- Form Starts -->
-  <div class="col-md-5">
-   
-  <form class="banner_form" onsubmit="alert('Tack för din förfrågan!')">
-    <h2 data-aos="fade-up" data-aos-duration="500">Vi Kommer att Kontakta Dig!</h2>
-  <div class="form-row" data-aos="fade-up" data-aos-duration="800">
-    
-    <div class="input-group mb-3 col-md-6 pl-0">
-      <div class="input-group-prepend">
-        <span class="input-group-text form_icon" id="fname_icon">
-            <svg baseProfile="tiny" height="24px" id="Layer_1"  viewBox="0 0 24 24" width="24px"><path d="M17,9c0-1.381-0.56-2.631-1.464-3.535C14.631,4.56,13.381,4,12,4S9.369,4.56,8.464,5.465C7.56,6.369,7,7.619,7,9  s0.56,2.631,1.464,3.535C9.369,13.44,10.619,14,12,14s2.631-0.56,3.536-1.465C16.44,11.631,17,10.381,17,9z"/><path d="M6,19c0,1,2.25,2,6,2c3.518,0,6-1,6-2c0-2-2.354-4-6-4C8.25,15,6,17,6,19z"/></svg>
-        </span>
-      </div>
-      <input type="text" id="fname" class="form-control" aria-label="First Name" aria-describedby="fname" required>
-       <label for="fname">Förnamn</label>
-    </div>
-    <div class="input-group mb-3 col-md-6">
-      <div class="input-group-prepend">
-        <span class="input-group-text form_icon" id="lname_icon">
-            <svg baseProfile="tiny" height="24px" id="Layer__1"  viewBox="0 0 24 24" width="24px"><path d="M17,9c0-1.381-0.56-2.631-1.464-3.535C14.631,4.56,13.381,4,12,4S9.369,4.56,8.464,5.465C7.56,6.369,7,7.619,7,9  s0.56,2.631,1.464,3.535C9.369,13.44,10.619,14,12,14s2.631-0.56,3.536-1.465C16.44,11.631,17,10.381,17,9z"/><path d="M6,19c0,1,2.25,2,6,2c3.518,0,6-1,6-2c0-2-2.354-4-6-4C8.25,15,6,17,6,19z"/></svg>
-        </span>
-      </div>
-      <input type="text" id="lname" class="form-control" aria-label="Last Name" aria-describedby="lname" required>
-       <label for="lname" class="l_50">Efternamn</label>
-    </div>
-  </div>
-  <div class="input-group mb-3" data-aos="fade-up" data-aos-duration="1000">
-      <div class="input-group-prepend">
-        <span class="input-group-text">
-            <svg style="enable-background:new 0 0 24 24;" height="18" version="1.1" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="info"/><g id="icons"><path d="M21.5,11.1l-17.9-9C2.7,1.7,1.7,2.5,2.1,3.4l2.5,6.7L16,12L4.6,13.9l-2.5,6.7c-0.3,0.9,0.6,1.7,1.5,1.2l17.9-9   C22.2,12.5,22.2,11.5,21.5,11.1z" id="send"/></g></svg>
-        </span>
-      </div>
-        
-      <input type="email" id="email" class="form-control" aria-label="Email Address" aria-describedby="email" required>
-      <label for="email">Mejladress</label>
-
-    </div>
-    <div class="input-group mb-3" data-aos="fade-up" data-aos-duration="1000">
-        <div class="input-group-prepend">
-          <span class="input-group-text">
-              <svg viewBox="0 0 20 20" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/></svg>
-          </span>
-        </div>
+</article>
+</section>  
           
-        <input type="number" id="phone" class="form-control" aria-label="Phone" aria-describedby="phone" required>
-        <label for="phone">Telefon</label>
+  <section class="inner-section" id="progress">
+        <header><h4>Progress Bars</h4></header>
+          <article>
+    
+       <p>To initialize progress bar you can add the progress bar script at the bottom of html page before closing tag of <code class="highlight-rouge">body</code>.</p>
 
-      </div>
+      <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+       <pre>
+
+              <code class="language-html code">
+&lt;script src="js/progress.js"&gt;&lt;/script&gt;
+            </code>
+         </pre>
+       </div>
+
+
+
+         <p>Below is the code to add a progress bar to your html page</p>
+
+         <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+         <pre>
+
+           <code class="language-html code">
+&lt;div class="row"&gt;
+
+&lt;h5 class="bars">Happy Clients&lt;/h5&gt;
+&lt;div class="progress"&gt;
+  &lt;div class="progress-bar-h" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50&lt;/div&gt;
+&lt;/div>
+&lt;h5 class="bars">International Projects&lt;/h5&gt;
+&lt;div class="progress"&gt;
+  &lt;div class="progress-bar-h" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75&lt;/div&gt;
+&lt;/div&gt;
+&lt;h5 class="bars">New Clients</h5>
+&lt;div class="progress"&gt;
+  &lt;div class="progress-bar-h" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90&lt;/div&gt;
+  &lt;/div&gt;
+    &lt;h5 class="bars">Our Project Success Rate&lt;/h5>
+  &lt;div class="progress"&gt;
+    &lt;div class="progress-bar-h" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="      100">100&lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div>
+          </code>
+         </pre>
+       </div>
+    
+          </article>
+   </section>     
+   
+
+
+
+<section class="inner-section" id="counters">
+        <header><h4>Counters</h4></header>
+          <article>
+          
+          <p>To initialize counter you need to add two progress bar scripts at the bottom of html page before closing tag of <code class="highlight-rouge">body</code>.</p>
+
+          <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+          <pre>
+    
+              <code class="language-html code">
+&lt;script src="js/counter.js"&gt;&lt;/script&gt;
+            </code>
+         </pre>
+       </div>
+
+         <p>Below is the code to add a counter to your html page</p>
+
+        <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+         <pre>
+      
+           <code class="language-html code">
+&lt;!-- Counter Section Starts --&gt;
+&lt;div id="counter"&gt;
+&lt;div class="row counter_row bg-cs"&gt;
+
+
+  &lt;div class="col-md-3 text-center"&gt;
+    &lt;h6 class="h6-counter">Cases Completed&lt;/h6&gt;
+    &lt;i class="fa fa-business-time fa-5x cgg"&gt;&lt;/i&gt;
+    &lt;div class="counter-value" data-count="300"&gt;0&lt;/div&gt;
+  &lt;/div&gt;
+
+
+  &lt;div class="col-md-3 text-center"&gt;
+    &lt;h6 class="h6-counter">Consultants Wordwide&lt;/h6&gt;
+    &lt;i class="fa fa-globe fa-5x cgg"&gt;&lt;/i&gt;
+    &lt;div class="counter-value" data-count="400"&gt;100&lt;/div&gt;
+  &lt;/div&gt;
+
+
+  &lt;div class="col-md-3 text-center"&gt;
+    &lt;h6 class="h6-counter"&gt;Projects Delivered&lt;/h6&gt;
+    &lt;i class="fa fa-chart-bar fa-5x cgg"&gt;&lt;/i&gt;
+    &lt;div class="counter-value" data-count="1500"&gt;200&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="col-md-3 text-center"&gt;
+    &lt;h6 class="h6-counter"&gt;Satisfied Clients&lt;/h6&gt;
+    &lt;i class="fa fa-check-circle fa-5x cgg"&gt;&lt;/i&gt;
+    &lt;div class="counter_percent"&gt;&lt;span class="counter-value" data-count="100"&gt;0&lt;/span&gt;&lt;span class="counter-percent"&gt;%&lt;/span&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Counter Section Ends --&gt;
+          </code>
+         </pre>
+       </div>
+    
+    </article>
+</section>
+
  
 
- <div class="text-left form_btn"  data-aos="fade-up" data-aos-duration="1500">
-  <button type="submit" class="btn btn-primary" >Kontakta Mig</button>
+
+
+<section class="inner-section" id="googlemaps">
+        <header><h3>Google Maps</h3></header>
+          <article>
+          
+          <p>Google maps are used for all homepages and contact pages for easy location sharing.</p>
+
+          <p>Propertier Landing Page Template uses iframe for google map integration where use can use the following code to integrate google map and add a location to <code class="highlight-rouge">src</code> attribute to load your current map.</p>
+
+          <div class="code-div"> 
+           <div class="tooltip">
+          <button class="copy">Copy</button>
+           <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+           </div>
+         <pre>
+      
+           <code class="language-html code">
+            
+&lt;iframe src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"&gt;&lt;/iframe&gt;
+          </code>
+         </pre>
+       </div>
+
+      
+
+          <h4>Map Attributes</h4>
+          <p>The iframe code above uses some attributes which you can use to customize the map which are.</p>
+          <ul>
+            <li><code class="highlight-rouge">width</code> for custom width as <code class="highlight-rouge">width="600"</code> or for full width use can use <code class="highlight-rouge">width="100%"</code></li>
+            <li><code class="highlight-rouge">Height</code> for height as <code class="highlight-rouge">height="450"</code></li>
+            <li><code class="highlight-rouge">allowfullscreen</code> to enable full screen and other attributes which you can leave as default.</li>
+          </ul>
+
+          <h4>Add Map Location</h4>
+          <p>Inorder to add a location to the map you can visit <a href="https://www.google.com/maps">https://www.google.com/maps</a> and click on the location from the map which will bring a map marker to that location then at the top left corner you can click the share button which will open a modal window then click on embed map and code the iframe code and paste it on the page where you want to add the map.</p>
+
+       <div class="alert alert-info">
+  <strong>Note!</strong> For map zoom you can use zoom the map on <code class="highlight-rouge">google maps</code> then embed it using the same process which will embed the zoomed version of the map.
 </div>
-</form>
-
-
-  
-  </div>
-
-  <!-- Form Ends -->
-</div>
-
-
-
-
-</div>
-
- </div>
-</div>
-
-<!-- Slider Container Ends -->
-
-
-
-<div class="container-fluid" id="about">
-
-<!-- Col 2 starts -->
-
-
-<div class="row col_2_custom">
-  
-
-<div class="col-md-6 col_2_cs p_rel luxy-el" data-aos="fade-up">
-  <img src="assets/images/dubai/ahmed-aldaie-lVSrpZ-0B8o-unsplash.jpg" alt="Col 2 Image" class="img-fluid col_2_img">
-</div>
-
-<div class="col-md-6 col_2_cs luxy-el" data-aos="fade-up">
-  <h5 class="gb">Om Oss</h5>
-  <h1 data-aos="fade-up" class="slider_h1 col_2_h2"><span class="cs_sp">Varför Du Måste Väla Oss!</span></h1>
-  <p data-aos="fade-up" class="col_2_p">● Vi har kunskap och erfarenheter om marknaden. Vi kan hj'lpa med lokala marknadstrenderna, fastighetsvärdena och kan ge värdefulla insikter. <br>
-    ● Fastighetstransaktioner involverar många uppgifter, pappersarbete och deadlines. Vi kan hantera komplexiteten, vilket sparar tid och säkerställer en smidigare process.<br>
-    ● Vi har tillgång till ett bredare utbud av fastighetslistor, inklusive de som inte annonseras offentligt. Detta ger dig fler alternativ när du letar efter ett hem.<br>
-    ● Fastighetstransaktioner involverar juridisk dokumentation och förfaranden. Vi kan guida dig genom dessa processer, vilket minskar risken för fel eller juridiska problem.
-  </p>
-
-
-<div class="row li_row">
-    <div class="col-md-12 pl0">
-  <div class="mb-3">
-    <svg height="20" version="1.1" fill="#2fcb72" viewBox="0 0 20 20" width="20"><title/><desc/><defs/><g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g fill="#2fcb72"  transform="translate(-128.000000, -86.000000)"><g  transform="translate(128.000000, 86.000000)"><path d="M5.9,8.1 L4.5,9.5 L9,14 L19,4 L17.6,2.6 L9,11.2 L5.9,8.1 L5.9,8.1 Z M18,10 C18,14.4 14.4,18 10,18 C5.6,18 2,14.4 2,10 C2,5.6 5.6,2 10,2 C10.8,2 11.5,2.1 12.2,2.3 L13.8,0.7 C12.6,0.3 11.3,0 10,0 C4.5,0 0,4.5 0,10 C0,15.5 4.5,20 10,20 C15.5,20 20,15.5 20,10 L18,10 L18,10 Z" /></g></g></g></svg>
-  Eleganta Fastigheter</div>
-  <div class="mb-3">
-  <svg height="20" version="1.1" fill="#2fcb72" viewBox="0 0 20 20" width="20"><title/><desc/><defs/><g fill="none" fill-rule="evenodd"  stroke="none" stroke-width="1"><g fill="#2fcb72"  transform="translate(-128.000000, -86.000000)"><g  transform="translate(128.000000, 86.000000)"><path d="M5.9,8.1 L4.5,9.5 L9,14 L19,4 L17.6,2.6 L9,11.2 L5.9,8.1 L5.9,8.1 Z M18,10 C18,14.4 14.4,18 10,18 C5.6,18 2,14.4 2,10 C2,5.6 5.6,2 10,2 C10.8,2 11.5,2.1 12.2,2.3 L13.8,0.7 C12.6,0.3 11.3,0 10,0 C4.5,0 0,4.5 0,10 C0,15.5 4.5,20 10,20 C15.5,20 20,15.5 20,10 L18,10 L18,10 Z" /></g></g></g></svg>
-  Fantastiska Platser</div>
-  <div class="mb-3">
-  <svg height="20" version="1.1" fill="#2fcb72" viewBox="0 0 20 20" width="20"><title/><desc/><defs/><g fill="none" fill-rule="evenodd"  stroke="none" stroke-width="1"><g fill="#2fcb72"  transform="translate(-128.000000, -86.000000)"><g  transform="translate(128.000000, 86.000000)"><path d="M5.9,8.1 L4.5,9.5 L9,14 L19,4 L17.6,2.6 L9,11.2 L5.9,8.1 L5.9,8.1 Z M18,10 C18,14.4 14.4,18 10,18 C5.6,18 2,14.4 2,10 C2,5.6 5.6,2 10,2 C10.8,2 11.5,2.1 12.2,2.3 L13.8,0.7 C12.6,0.3 11.3,0 10,0 C4.5,0 0,4.5 0,10 C0,15.5 4.5,20 10,20 C15.5,20 20,15.5 20,10 L18,10 L18,10 Z" /></g></g></g></svg>
-  Pålitlig Service</div>
-  <div class="mb-3">
-  <svg height="20" version="1.1" fill="#2fcb72" viewBox="0 0 20 20" width="20"><title/><desc/><defs/><g fill="none" fill-rule="evenodd"  stroke="none" stroke-width="1"><g fill="#2fcb72"  transform="translate(-128.000000, -86.000000)"><g  transform="translate(128.000000, 86.000000)"><path d="M5.9,8.1 L4.5,9.5 L9,14 L19,4 L17.6,2.6 L9,11.2 L5.9,8.1 L5.9,8.1 Z M18,10 C18,14.4 14.4,18 10,18 C5.6,18 2,14.4 2,10 C2,5.6 5.6,2 10,2 C10.8,2 11.5,2.1 12.2,2.3 L13.8,0.7 C12.6,0.3 11.3,0 10,0 C4.5,0 0,4.5 0,10 C0,15.5 4.5,20 10,20 C15.5,20 20,15.5 20,10 L18,10 L18,10 Z" /></g></g></g></svg>
-  Luxury Uppstart</div>
-  <div class="mb-3">
-  <svg height="20" version="1.1" fill="#2fcb72" viewBox="0 0 20 20" width="20"><title/><desc/><defs/><g fill="none" fill-rule="evenodd"  stroke="none" stroke-width="1"><g fill="#2fcb72"  transform="translate(-128.000000, -86.000000)"><g  transform="translate(128.000000, 86.000000)"><path d="M5.9,8.1 L4.5,9.5 L9,14 L19,4 L17.6,2.6 L9,11.2 L5.9,8.1 L5.9,8.1 Z M18,10 C18,14.4 14.4,18 10,18 C5.6,18 2,14.4 2,10 C2,5.6 5.6,2 10,2 C10.8,2 11.5,2.1 12.2,2.3 L13.8,0.7 C12.6,0.3 11.3,0 10,0 C4.5,0 0,4.5 0,10 C0,15.5 4.5,20 10,20 C15.5,20 20,15.5 20,10 L18,10 L18,10 Z" /></g></g></g></svg>
-  Snabb Service</div>
-    </div>
-    <div class="col-6">
-        <ul class="fa-ul">
-  
-  
-  
-  
-
-</ul>
-    </div>
-  </div>
-
-
-  <div class="c2_btn_col" data-aos="fade-up"><a href="#contact"  class="cta_btn btn-lg btn_get_started"> Kontakta Mig <i class="fas fa-angle-right"></i></a></div>
-</div>
-
-</div>
-
-<!-- Col 2 ends -->
-
-
-</div>  <!-- Container Inner Ends -->
-
-
-
-<!-- Col 4 Section Starts -->
-<div class="col-4-section mt-4 pt-4 gray__bg lp_col_section" id="services">
-
-<!-- Container Starts -->
-<div class="container text-center pt3">
-
-    <h2 class="slider_h1 col_2_h2 text-center" data-aos="fade-up" data-aos-duration="700"><span class="cs_sp">Service</span></h2>
-    <div class="heading_line"></div>
-
-
-
-<div class="row col_4_cs_row pt-3 checker_border mt-3">
-  <div class="col-md-4 col_4_cs" data-aos="fade-up">
-
-    <div class="col_4_inner">
     
-    <div class="col_4_img">
-      <svg id="Layer_1_1_" fill="#2fcb72" width="70" style="enable-background:new 0 0 64 64;" version="1.1" viewBox="0 0 64 64"><g><path d="M63,41V23h-5.543c-0.316-0.894-0.683-1.775-1.094-2.635l3.921-3.921L47.557,3.716l-3.922,3.921   C42.773,7.225,41.892,6.859,41,6.543V1H23v5.542c-0.891,0.316-1.772,0.682-2.635,1.095l-3.922-3.921L3.716,16.444l3.921,3.921   C7.226,21.225,6.859,22.106,6.543,23H1v18h5.543c0.316,0.894,0.683,1.775,1.094,2.635l-3.921,3.921l12.728,12.728l3.922-3.921   c0.861,0.412,1.743,0.779,2.635,1.095V63h18v-4h-0.344l0.434-0.434c0.613,0.313,1.252,0.578,1.91,0.79V63h8v-3.643   c0.658-0.212,1.297-0.477,1.91-0.79l2.575,2.575l5.656-5.657l-2.575-2.575c0.314-0.613,0.578-1.252,0.791-1.91H63v-8h-3.643   c-0.213-0.658-0.477-1.297-0.791-1.91l0.09-0.09H63z M60.656,39L61,38.656V39H60.656z M24.308,55.789   c-1.255-0.405-2.495-0.92-3.686-1.53l-0.648-0.333l-3.53,3.53l-9.899-9.9l3.529-3.529l-0.332-0.648   c-0.608-1.188-1.123-2.428-1.53-3.686L7.987,39H3V25h4.987l0.224-0.692c0.407-1.258,0.922-2.499,1.53-3.686l0.332-0.648   l-3.529-3.529l9.899-9.9l3.53,3.53l0.648-0.332c1.193-0.611,2.433-1.126,3.686-1.531L25,7.988V3h14v4.987l0.692,0.224   c1.254,0.405,2.494,0.92,3.686,1.531l0.648,0.332l3.53-3.53l9.899,9.9l-3.529,3.529l0.332,0.648   c0.608,1.188,1.123,2.428,1.53,3.686L56.013,25H61v13.373l-4.084-4.084C57.573,33.738,58,32.922,58,32c0-1.654-1.346-3-3-3   s-3,1.346-3,3c0,1.174,0.684,2.182,1.669,2.674l-0.759,0.759c-0.613-0.313-1.252-0.578-1.91-0.79V31h-1.051   C49.426,21.541,41.587,14,32,14c-9.925,0-18,8.075-18,18c0,9.588,7.541,17.426,17,17.949V51h3.643   c0.213,0.658,0.477,1.297,0.791,1.91l-0.759,0.759C34.182,52.684,33.174,52,32,52c-1.654,0-3,1.346-3,3s1.346,3,3,3   c0.922,0,1.738-0.427,2.289-1.084L38.373,61H25v-4.988L24.308,55.789z M55,33c-0.552,0-1-0.449-1-1s0.448-1,1-1s1,0.449,1,1   S55.552,33,55,33z M35.434,41.09c-0.314,0.613-0.578,1.252-0.791,1.91H31v0.949C24.85,43.438,20,38.279,20,32   c0-6.617,5.383-12,12-12c6.28,0,11.438,4.851,11.949,11H43v3.643c-0.658,0.212-1.297,0.477-1.91,0.79l-2.575-2.575l-5.656,5.657   L35.434,41.09z M45.949,31C45.433,23.747,39.382,18,32,18c-7.72,0-14,6.28-14,14c0,7.382,5.747,13.433,13,13.949v2   C22.644,47.429,16,40.485,16,32c0-8.822,7.178-16,16-16c8.485,0,15.429,6.644,15.949,15H45.949z M32,56c-0.552,0-1-0.449-1-1   s0.448-1,1-1s1,0.449,1,1S32.552,56,32,56z M39,61h-0.343L39,60.657V61z M61,45v4h-3.168l-0.194,0.75   c-0.257,0.997-0.65,1.948-1.17,2.828l-0.394,0.667l2.239,2.24l-2.828,2.829l-2.24-2.24l-0.668,0.395   c-0.879,0.519-1.83,0.913-2.827,1.17L49,57.832V61h-4v-3.168l-0.75-0.193c-0.997-0.257-1.948-0.651-2.827-1.17l-0.668-0.395   l-2.24,2.24l-2.828-2.829l2.239-2.24l-0.394-0.667c-0.52-0.88-0.913-1.831-1.17-2.828L36.168,49H33v-4h3.168l0.194-0.75   c0.257-0.997,0.65-1.948,1.17-2.828l0.394-0.667l-2.239-2.24l2.828-2.829l2.24,2.24l0.668-0.395c0.879-0.519,1.83-0.913,2.827-1.17   L45,36.168V33h4v3.168l0.75,0.193c0.997,0.257,1.948,0.651,2.827,1.17l0.668,0.395l2.24-2.24l2.828,2.829l-2.239,2.24l0.394,0.667   c0.52,0.88,0.913,1.831,1.17,2.828L57.832,45H61z" fill="#2fcb72"/><path d="M32,12c1.654,0,3-1.346,3-3s-1.346-3-3-3s-3,1.346-3,3S30.346,12,32,12z M32,8c0.552,0,1,0.449,1,1   s-0.448,1-1,1s-1-0.449-1-1S31.448,8,32,8z" fill="#2fcb72"/><path d="M9,29c-1.654,0-3,1.346-3,3s1.346,3,3,3s3-1.346,3-3S10.654,29,9,29z M9,33c-0.552,0-1-0.449-1-1   s0.448-1,1-1s1,0.449,1,1S9.552,33,9,33z" fill="#2fcb72"/><path d="M47,38c-4.963,0-9,4.038-9,9s4.037,9,9,9s9-4.038,9-9S51.963,38,47,38z M47,54c-3.859,0-7-3.14-7-7   s3.141-7,7-7s7,3.14,7,7S50.859,54,47,54z" fill="#2fcb72"/></g></svg>
-    </div>
+    </article>
+</section>  
 
-    <div class="col__lft">
-    <h4 class="pt1 mb-2">Bästa Service</h4>
-    <p class="cgp">Inom fastigheter kan oväntade problem uppstå. Vi kan snabbt hitta och lösa problem och hålla transaktionen på rätt spår.
-      Vi ger ett objektivt perspektiv och hjälper dig att fatta beslut baserat på fakta.
-    </p>
-    </div>
 
-  </div>
 
-  </div>
 
 
-  <div class="col-md-4 col_4_cs">
 
-    <div class="col_4_img">
-      <div class="col_4_img">
-      <svg viewBox="0 0 64 64" fill="#2fcb72" width="70"><g id="Outline"><g data-name="Outline" id="Outline-2"><circle cx="32" cy="57" r="1"/><path d="M42.63,45.38a23,23,0,1,0-21.26,0C8.51,46.34,2,49.07,2,53.5c0,7,16.31,8.5,30,8.5s30-1.47,30-8.5C62,49.07,55.49,46.34,42.63,45.38ZM11,25A21,21,0,1,1,40.72,44.1a.86.86,0,0,0-.29.21L32.66,52.1a1,1,0,0,1-1.27,0l-2.8-2.8h0l-5-5a.86.86,0,0,0-.29-.21A21.06,21.06,0,0,1,11,25ZM32,60C14.73,60,4,57.51,4,53.5c0-3.28,7.17-5.55,19.67-6.27l1.94,2C19.33,49.53,11,50.56,11,53.5c0,3.33,10.62,4.2,17,4.43h0a1,1,0,0,0,0-2c-9.57-.34-14-1.72-14.91-2.43.88-.7,5.19-2,14.41-2.41L30,53.6a2.92,2.92,0,0,0,1.95.73,3,3,0,0,0,2-.78l2.46-2.46C45.7,51.46,50,52.8,50.89,53.5c-.89.71-5.33,2.09-14.91,2.43a1,1,0,0,0,0,2h0c6.33-.23,17-1.1,17-4.43,0-2.94-8.33-4-14.61-4.32l1.94-2C52.83,48,60,50.22,60,53.5,60,57.51,49.27,60,32,60Z"/><path d="M51,25A19,19,0,1,0,32,44,19,19,0,0,0,51,25ZM15,25A17,17,0,1,1,32,42,17,17,0,0,1,15,25Z"/><path d="M42,20.5a8,8,0,0,0-8-8H27a3,3,0,0,0-3,3v19a3,3,0,0,0,6,0v-6h4A8,8,0,0,0,42,20.5Zm-13,6a1,1,0,0,0-1,1v7a1,1,0,0,1-2,0v-19a1,1,0,0,1,1-1h7a6,6,0,0,1,0,12Z"/><path d="M38,20.5a4,4,0,0,0-4-4H29a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h5A4,4,0,0,0,38,20.5Zm-8-2h4a2,2,0,0,1,0,4H30Z"/></g></g></svg>
-    </div>
-    </div>
 
-    <div class="col_4_inner" data-aos="fade-up">
-    
-    <div class="col__lft">
-    <h4 class="pt1 mb-2">Fantastiska Platser</h4>
-    <p class="cgp">Vi har tillgång till en mängd information om stadsdelar, skolor, marknadsförhållanden och kommande utvecklingar. Denna kunskap hjälper dig att fatta välgrundade beslut..</p>
-    </div>
-  </div>
+ 
+  </section>
 
-  </div>
 
-  <div class="col-md-4 col_4_cs">
-
-    <div class="col_4_img">
-      <svg data-name="Livello 1" fill="#2fcb72" width="70" id="Livello_1" viewBox="0 0 128 128"><title/><path d="M64,128a6.9,6.9,0,0,1-4.89-2L26.23,93.12A55.05,55.05,0,0,1,10,53.69,53.29,53.29,0,0,1,25.87,15.58a54.56,54.56,0,0,1,76.26,0h0A53.29,53.29,0,0,1,118,53.69a55.05,55.05,0,0,1-16.23,39.43L68.89,125.94A6.9,6.9,0,0,1,64,128ZM64,6A48.19,48.19,0,0,0,30.08,19.85,47.34,47.34,0,0,0,16,53.7,49.1,49.1,0,0,0,30.47,88.87l32.87,32.82a.91.91,0,0,0,1.31,0L97.53,88.87A49.1,49.1,0,0,0,112,53.7,47.34,47.34,0,0,0,97.92,19.85h0A48.19,48.19,0,0,0,64,6Z"/><path d="M64,81.41a27.25,27.25,0,1,1,19.3-8A27.23,27.23,0,0,1,64,81.41Zm0-48.49a21.26,21.26,0,1,0,15.06,6.22h0A21.25,21.25,0,0,0,64,32.92Z"/></svg>
-    </div>
-
-    <div class="col_4_inner" data-aos="fade-up">
-    
-    <div class="col__lft">
-    <h4 class="pt1 mb-2">Lokala Agenter</h4>
-    <p class="cgp">Vi har ofta ett nätverk av proffs, inklusive långivare, inspektörer och entreprenörer. Detta nätverk kan vara fördelaktigt under köp- eller försäljningsprocessen..</p>
-    </div>
-
-  </div>
-
-
-</div>
-  </div>
-
-</div>
-
-
-</div>
-<!-- Col 4 section ends -->
-
-
-
-
-</div>  <!-- Container Inner Ends -->
-
-
-
-
-
-
-<!-- Col 2 starts -->
-
-<div class="container col_checkers mt_3">
-
-<div class="row col_2_custom pb-0">
-  
-
-<div class="col-md-6 col_2_cs p_rel pr-0 pl-0 luxy-el" data-aos="fade-up">
-  <img src="assets/images/dubai/Screenshot 2023-09-09 at 13.15.57.png" alt="Col 2 Image" class="img-fluid col_2_img">
-</div>
-
-<div class="col-md-6 col_2_cs pt-4 pb-4 luxy-el" data-aos="fade-up">
-  
-  <h2 data-aos="fade-up" class="slider_h1 col_2_h2"><span class="cs_sp">Varför väljer människor Dubai-utveckling för investeringar?</span></h2><br>
-  <p data-aos="fade-up" class="col_2_p">●    Alla Dubai-utvecklingar är skattefria <br> <br>●    Dubai’s fritt och öppet system <br><br>●    Dubai utvecklingens enkla betalningsplaner<br> <br>
-    ●    Dubai’s förstklassiga infrastruktur <br><br>
-  </p>
-
-  <div class="c2_btn_col" data-aos="fade-up"><a class="cta_btn btn-lg btn_get_started" class="nav-link" href="#contact"> Kontakta Mig <i class="fas fa-angle-right"></i></a></div>
-</div>
-
-</div>
-
-
-
-<div class="row col_2_custom pt-0">
-  
-
-
-<div class="col-md-6 col_2_cs pt-4 pb-4 luxy-el" data-aos="fade-up">
-  
-  <h2 data-aos="fade-up" class="slider_h1 col_2_h2"><span class="cs_sp">What are the best developments in Dubai for making a good real estate investment?
-  </span></h2><br>
-  <p data-aos="fade-up" class="col_2_p">● Fastighet till salu i Palm Jumeirah, Dubai <br><br> ● Fastighet till salu i Dubai Marina, Dubai<br><br>
-    ● Fastigheter till salu i Downtown Dubai, Dubai <br><br>● Fastighet till salu i Jumeirah Village Circle, Dubai
-  </p>
-
-  <div class="c2_btn_col" data-aos="fade-up"><a lass="nav-link" href="#contact" class="cta_btn btn-lg btn_get_started"> Kontakta Mig <i class="fas fa-angle-right"></i></a></div>
-</div>
-
-
-<div class="col-md-6 col_2_cs p_rel pr-0 pl-0 luxy-el" data-aos="fade-up">
-  <img src="assets/images/dubai/1.jpg" alt="Col 2 Image" class="img-fluid col_2_img">
-</div>
-
-</div>
-
-
-</div>
-
-<!-- Col 2 ends -->
-
-
-
-
-<!-- Reviews Section Starts -->
-
-<div class="container mt-3 mb-4" id="clients">
-
-<h2 class="cs_h1" data-aos="fade-up"><span class="cs_sp">Farhad Gharedaghi</span></h2>
-<div class="heading_line"></div>
-
-
-<div class="reviews_section slider slider-rwf pb0 mb0">
-
-<div class="rw_content cwb" data-aos="zoom-in-right" data-aos-duration="500">
-  <!-- <div class="mb-3"><i class="fa fa-quote-left fa-lg cgg"></i></div> -->
-  <img class="rw_img cfr" src="assets/images/team/IMG_0905.jpg" alt="Logo">
- <p class="rw_p w6 m0a">Jag är en social och energisk person, med ca 20 år jobb erfarenhet. Min starka arbetsmoral och förmåga att hjälpa mina klienter, har gjort mig framgångsrik i
-  mitt jobb inom Fastighet branschen. Jag strävar alltid efter att överträffa klienter förväntningarna. Under de senaste åren har jag arbetat som fastighet mäklare i Duabi
-  och jag har fått möjligheten att utveckla en bred kompetens och nätverk inom färdighet brancschen samt med hus byggare. Min passion för fastighet branschen har drivit mig att sträva efter ständig utveckling 
-  och att hitta kreativa lösningar på utmaningar och hjälpa andra för att hitta sina dröm hus.</p>
-  <div class="rw_stars pt-2 pb-2">
-   <i class="fas fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
- </div>
- <p class="rw_des">Försäljare</p>
- <div class="heading_line"></div>
-
-
-</div>
-<!-- Om mig 
-
-
-<div class="rw_content cwb" data-aos="zoom-in-right" data-aos-duration="500">
-  <div class="mb-3"><i class="fa fa-quote-left fa-lg cgg"></i></div>
-  <img class="rw_img cfr" src="assets/images/team/team-member-2.jpg" alt="Logo">
- <p class="rw_p w6 m0a">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  <div class="rw_stars pt-2 pb-2">
-   <i class="fas fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
- </div>
- <p class="rw_des">CFO</p>
-
-</div>
-
-
-<div class="rw_content cwb" data-aos="zoom-in-right" data-aos-duration="500">
-  <div class="mb-3"><i class="fa fa-quote-left fa-lg cgg"></i></div>
-  <img class="rw_img cfr" src="assets/images/team/team-member-3.jpg" alt="Logo">
- <p class="rw_p w6 m0a">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  <div class="rw_stars pt-2 pb-2">
-   <i class="fas fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
- </div>
- <p class="rw_des">Brand Manager</p>
-
-</div>
-
-
--->
-
-</div>
-
-</div>
-<!-- Reviews Section Ends -->
-
-
-
-
-
-<!-- Blog Section Starts -->
-
-
-
-
-<div class="blog_section estate_listing" id="features">
-  
-
-<div class="container">
-
-<h1 class="cs_h1 text-center"><span class="cs_sp">Tillgängliga Projekt</span></h1>
-<div class="heading_line"></div>
-
-
-
-<div class="row mt3">
-
-  <div class="col-lg-3 col-md-3 col-sm-6 text-right blog_outer" data-aos="fade-up" data-aos-duration="1000">
-    <div class="blog_content">
-      <div class="blog_img"><img class="img-fluid" src="assets/images/developer/Emaar-Properties-Logo.jpg" alt="Blog Image"></div>
-         <!-- <div class="blog-meta text-left"><i class="fa fa-heart"></i> 5</div> -->
-
-      <div class="description">
-             <ul class="estate_listing_ul">
-                <li>
-                  <span>EMAAR:</span>
-                  <span></span>
-                </li>
-                <li>
-                  <span>Antal av Projekt:</span>
-                  <span>16</span>
-                </li>
-                <li>
-                  <span>Yta från:</span>
-                  <span>100m</span>
-                </li>
-                <li>
-                  <span>Pris från:</span>
-                  <span>$50000</span>
-                </li>
-             </ul>
-      </div>
-    
-   
-    <div class="read_btn_div mt-3"><a href="#" class="read_btn">Läs Mer</a></div>
-  </div>
-  </div>
-
- <div class="col-lg-3 col-md-3 col-sm-6 text-right blog_outer" data-aos="fade-up" data-aos-duration="1000">
-    <div class="blog_content">
-      <div class="blog_img"><img class="img-fluid" src="assets/images/developer/logo-new.png" alt="Blog Image"></div>
-         <!-- <div class="blog-meta text-left"><i class="fa fa-heart"></i> 5</div> -->
-
-      <div class="description">
-             <ul class="estate_listing_ul">
-                <li>
-                  <span>Tiger Group:</span>
-                  <span></span>
-                </li>
-                <li>
-                  <span>Antal av Projekt:</span>
-                  <span>14</span>
-                </li>
-                <li>
-                  <span>Yta från:</span>
-                  <span>300m</span>
-                </li>
-                <li>
-                  <span>Pris från:</span>
-                  <span>$70000</span>
-                </li>
-             </ul>
-      </div>
-    
-   
-    <div class="read_btn_div mt-3"><a href="#" class="read_btn">Läs Mer</a></div>
-  </div>
-  </div>
-
-
- <div class="col-lg-3 col-md-3 col-sm-6 text-right blog_outer" data-aos="fade-up" data-aos-duration="1000">
-    <div class="blog_content">
-      <div class="blog_img"><img class="img-fluid" src="assets/images/developer/damac-properties-logo-vector.png" alt="Blog Image"></div>
-         <!-- <div class="blog-meta text-left"><i class="fa fa-heart"></i> 5</div> -->
-
-      <div class="description">
-             <ul class="estate_listing_ul">
-                <li>
-                  <span>Damac:</span>
-                  <span></span>
-                </li>
-                <li>
-                  <span>Antal av Projekt:</span>
-                  <span>8</span>
-                </li>
-                <li>
-                  <span>Yta från:</span>
-                  <span>200m</span>
-                </li>
-                <li>
-                  <span>Pris från:</span>
-                  <span>$40000</span>
-                </li>
-             </ul>
-      </div>
-    
-   
-    <div class="read_btn_div mt-3"><a href="#" class="read_btn">Läs Mer</a></div>
-  </div>
-  </div>
-
- <div class="col-lg-3 col-md-3 col-sm-6 text-right blog_outer" data-aos="fade-up" data-aos-duration="1000">
-    <div class="blog_content">
-      <div class="blog_img"><img class="img-fluid" src="assets/images/developer/sobha-realty-logo1.webp" alt="Blog Image"></div>
-         <!-- <div class="blog-meta text-left"><i class="fa fa-heart"></i> 5</div> -->
-
-      <div class="description">
-             <ul class="estate_listing_ul">
-                <li>
-                  <span>Sobha:</span>
-                  <span></span>
-                </li>
-                <li>
-                  <span>Antal av Projekt:</span>
-                  <span>7</span>
-                </li>
-                <li>
-                  <span>Yta från:</span>
-                  <span>100m</span>
-                </li>
-                <li>
-                  <span>Pris från:</span>
-                  <span>$60000</span>
-                </li>
-             </ul>
-      </div>
-    
-   
-    <div class="read_btn_div mt-3"><a href="#" class="read_btn">Läs Mer</a></div>
-  </div>
-  </div>
-
-
-</div>
-</div>
-
-
-
-<!-- Blog Section Ends -->
-
-
-</div><!-- Container Ends -->
-
-
-
-<!-- Contact Form Starts -->
-
-<div class="container-fluid" id="contact">
-
-  <div class="row contact-section">
-
-
-  <div class="col-md-6 pl-0">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d451.331850108474!2d55.26208593491819!3d25.18113125016699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69ce4f2b57b9%3A0xdf007a9081963ae1!2sChurchill%20Tower%20-%203207%20Churchill%20Executive%20Tower%20-%20Business%20Bay%20-%20Dubai!5e0!3m2!1sen!2sae!4v1704529222393!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <br> Adress: Churchill Tower, Business Bay, Dubai</iframe>
-
-  </div>
-
-  <div class="col-md-6 pb2">
-   
-  <div class="contact-form" data-aos="fade-right" data-aos-duration="1000">
-
-      <h3 class="slider_h1 pb1" data-aos="fade-up"><span class="cs_sp f600">Skicka Meddelande 
-       <span class="heading_line_form"></span></span></h3>
      
     
-  <form action="#" class="needs-validation" novalidate>
-    <div class="row">
-      <div class="col">
-        <label for="uname">Full Namn:</label>
-        <input type="text" class="form-control" id="uname" name="uname" required>
-        <span class="valid-feedback">Valid.</span>
-        <span class="invalid-feedback">Var vänlig fyll i det här fältet.</span>
-      </div>
-      <div class="col">
-        <label for="email_addr">Mejladress:</label>
-        <input type="email" class="form-control" id="email_addr" name="email_addr" required>
-        <span class="valid-feedback">Valid.</span>
-        <span class="invalid-feedback">Var vänlig fyll i det här fältet.</span>
-      </div>
-    </div>
-      <div class="form-group">
-        <label for="subject">Subjekt:</label>
-        <input type="text" class="form-control" id="subject" name="Subject" required>
-        <span class="valid-feedback">Valid.</span>
-        <span class="invalid-feedback">Var vänlig fyll i det här fältet.</span>
-      </div>
-      <div class="form-group">
-        <label for="msg">Meddelande:</label>
-        <input type="text" class="form-control" id="msg" name="msg" required>
-        <span class="valid-feedback">Valid.</span>
-        <span class="invalid-feedback">Var vänlig fyll i det här fältet.</span>
-      </div>
-      <div class="form-group form-check">
-        <label class="form-check-label">
-          <input class="form-check-input" type="checkbox" name="remember" required> Godkänd
-          <span class="valid-feedback">Valid.</span>
-          <span class="invalid-feedback">Ckryssa i den här kryssrutan för att fortsätta.</span>
-        </label>
-      </div>
-      <button type="submit" class="contact-btn">Skicka</button>
-    </form>
-
-
-  </div>
-
-  </div>
-
-
-  </div>
-
-</div>
-
-<!-- Contact Form Ends -->
 
 
 
-
-<!-- Background Container Ends -->
-
-
+    
+    </main>
+      
+    <hr>
 
 <!-- Btm Container starts -->
 <div class="btm_container">
 <div class="container">
 
 
-<div class="text-center cright">
-   <div class="row">
 
-<p class="mb-3"> " Dubai är en super spännande destination med otroligt mycket som har hänt de senaste åren
-  och otroligt mycket som kommer att hända de närmsta åren. "</p>
-   
-
-<!-- Social Icons Starts -->
-
-  <div class="container logos_btm circle_icons zoom_effect">
-    <a href="#"><i class="fab fa-facebook-f"></i></a>
-  <a href="#"><i class="fab fa-instagram"></i></a>
-
-  <!--
-  <a href="#"><i class="fab fa-youtube"></i></a>
-  <a href="#"><i class="fab fa-linkedin"></i></a>
-  </div>
-
-Social Icons Ends -->
-
-
-    <div class="col-md-12 pt-3">
-      <p>&copy; Copyrights 2024. Alla Rätigheter Reserverad</p>
-    </div>
-   </div>
-</div>
+<div class="text-center cright"><p>&copy; Copyrights. All Rights Reserved</p></div>
 
 </div>
 </div>
 <!-- Btm container ends -->
+    
+  </div>
+ </div>
+</div>
+    
 
 
-<!-- <script src="js/init-map.js"></script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUr0MNgpPbR5Zee7tOhpKG9q1zx-AAdok&callback=initMap">
-    </script> -->
 
 
 
-<script src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
-<!-- Circular Scroll Script  -->
-<script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.1/dist/circle-progress.js"></script>
-<script src="libs/aos/aos-master/dist/aos.js"></script>
-<script src="libs/aos/aos-init.js"></script>
+<!-- Prism JS  -->
+<script src="libs/prism/prism.js"></script>
+<!-- Clipboard JS -->
+<script src="libs/clipboard/dist/clipboard.min.js"></script>
+
+<!-- 3. Instantiate clipboard -->
+    
+    <script>
+    var tooltip = document.getElementById("myTooltip");
+    var clipboard = new ClipboardJS('.tooltip', {
+        target: function(trigger) {
+             return trigger.nextElementSibling;
+           
+        }
+    });
+
+    clipboard.on('success', function(e) {
+   e.clearSelection();
+   $(e.trigger).closest(".code-div").find(".tooltiptext").text('Copied!');
+
+    });
+
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+
+    $(".copy").mouseout(function(){
+                $(this).closest(".code-div").find(".tooltiptext").text('Copy to clipboard');
+            })
+    </script>
 
 
-<!-- Contact Form Validation Script Starts -->
-<script src="js/validation.js"></script>
-<!-- Contact Form Validation Script Ends -->
+    <script>
+      
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+    $(document).ready(function(){
 
-<script>
-  $(function(){
-  var rellax = new Rellax('.rellax');
+     
+
+    $(".content").click(function(){
+    $(this).next(".inner-menu").slideToggle();
+    $(this).children(".c_icon").toggleClass("c_rotate");
   });
-</script>
+
+
+    });
 
 
 
+    </script>
 </body>
-</html>
+ </html>
